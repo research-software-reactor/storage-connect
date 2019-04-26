@@ -16,10 +16,10 @@ This will provide several design choices as Azure doubtless provides some (most?
 as a choice when defining system setup. That is, either an on premise database can be used or a cloud-based one.
 
 ### Objective 3: Mobile client side changes
-At the moment, Adrian Harwood has a .Net library he wrote to make it easy to write applications that want to use the Storage Connect web service. It essentially encapsulates all the JSON and API calls making it quick and intuitive to add this capability to an app without having to write all the HTTP requests out within the application. If we add some new functionality to Storage Connect, change the API or change the protocol we will need to upgrade this library as well to ensure it remains compatible.
+At the moment, Adrian Harwood has a .Net library he wrote to make it easy to write applications that want to use the Storage Connect web service. It essentially encapsulates all the JSON and API calls making it quick and intuitive to add this capability to an app without having to write all the HTTP requests out within the application. If we add some new functionality to Storage Connect, change the API, or change the protocol we will need to upgrade this library as well to ensure it remains compatible.
 
 ### Objective 4: Learning outcomes
 i.e. document what we did.
 
 ### Constraints
-The RSE developer of Storage Connect is not available for the May sprint days. The .Net API deverloper could make days 2 and 3. It may, therefore, be better to leave for a subsequent event.
+The RSE developer of Storage Connect is not available for the May sprint days. The .Net API library developer could make days 2 and 3. It may, therefore, be better to leave for a subsequent event.
